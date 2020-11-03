@@ -1,0 +1,11 @@
+ESSrmin_inner,N,T,algo,caching_mode,cores,data,inner_resampling_scheme,k,max_N_particles,max_memory_in_MB,prior,processed,ESSrmin_outer,M,M1,outer_essr_calc_mode,outer_resampling_scheme
+1.0,40000.0,100.0,ClassicalSMC,hash_table,50.0,sonar,multinomial,5.0,60000.0,4000.0,gaussian,True,,,,,
+1.0,10000.0,100.0,ClassicalSMC,hash_table,50.0,sonar,multinomial,20.0,15000.0,4000.0,gaussian,True,,,,,
+1.0,2000.0,100.0,ClassicalSMC,hash_table,50.0,sonar,multinomial,100.0,3000.0,4000.0,gaussian,True,,,,,
+1.0,400.0,100.0,ClassicalSMC,hash_table,50.0,sonar,multinomial,500.0,600.0,4000.0,gaussian,True,,,,,
+1.0,200.0,100.0,ClassicalSMC,hash_table,50.0,sonar,multinomial,1000.0,300.0,4000.0,gaussian,True,,,,,
+1.0,200000.0,100.0,WastelessSMC,hash_table,50.0,sonar,multinomial,1.0,300000.0,4000.0,gaussian,True,1.0,50.0,1.0,standard,multinomial
+1.0,200000.0,100.0,WastelessSMC,hash_table,50.0,sonar,multinomial,1.0,300000.0,4000.0,gaussian,True,1.0,100.0,1.0,standard,multinomial
+1.0,200000.0,100.0,WastelessSMC,hash_table,50.0,sonar,multinomial,1.0,300000.0,4000.0,gaussian,True,1.0,200.0,1.0,standard,multinomial
+1.0,200000.0,100.0,WastelessSMC,hash_table,50.0,sonar,multinomial,1.0,300000.0,4000.0,gaussian,True,1.0,400.0,1.0,standard,multinomial
+1.0,200000.0,100.0,WastelessSMC,hash_table,50.0,sonar,multinomial,1.0,300000.0,4000.0,gaussian,True,1.0,800.0,1.0,standard,multinomial

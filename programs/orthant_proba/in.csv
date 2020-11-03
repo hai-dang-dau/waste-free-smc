@@ -1,0 +1,11 @@
+ESSrmin_inner,ESSrmin_outer,M,M1,N,T,algo,cores,inner_resampling_scheme,k,max_memory_in_MB,name,outer_essr_calc_mode,outer_resampling_scheme,processed,tempered
+0.5,1.0,50.0,1.0,200000.0,100.0,WastelessSMC,50.0,multinomial,1.0,4000.0,rc150,standard,multinomial,True,0.0
+0.5,1.0,100.0,1.0,200000.0,100.0,WastelessSMC,50.0,multinomial,1.0,4000.0,rc150,standard,multinomial,True,0.0
+0.5,1.0,200.0,1.0,200000.0,100.0,WastelessSMC,50.0,multinomial,1.0,4000.0,rc150,standard,multinomial,True,0.0
+0.5,1.0,400.0,1.0,200000.0,100.0,WastelessSMC,50.0,multinomial,1.0,4000.0,rc150,standard,multinomial,True,0.0
+0.5,1.0,800.0,1.0,200000.0,100.0,WastelessSMC,50.0,multinomial,1.0,4000.0,rc150,standard,multinomial,True,0.0
+0.5,,,,40000.0,100.0,ClassicalSMC,50.0,multinomial,5.0,4000.0,rc150,,,True,0.0
+0.5,,,,10000.0,100.0,ClassicalSMC,50.0,multinomial,20.0,4000.0,rc150,,,True,0.0
+0.5,,,,2000.0,100.0,ClassicalSMC,50.0,multinomial,100.0,4000.0,rc150,,,True,0.0
+0.5,,,,400.0,100.0,ClassicalSMC,50.0,multinomial,500.0,4000.0,rc150,,,True,0.0
+0.5,,,,200.0,100.0,ClassicalSMC,50.0,multinomial,1000.0,4000.0,rc150,,,True,0.0
